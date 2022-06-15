@@ -26,7 +26,7 @@ const Success = () => {
                 <p className="email-msg">Se kvittering på din e-post.</p>
                 <p className="description">
                     Om du har noen spørsmål, vennligst ta kontakt med
-                    <a href="mailto:kundeservice@tropicl.no" className="email">kundeservice@tropicl.no</a>
+                    <a href="mailto:kundeservice@tropicl.clothing" className="email">kundeservice@tropicl.clothing</a>
                 </p>
                 <Link href="/">
                     <button type='button' width="300px" className='btn'>Fortsett å handle</button>
