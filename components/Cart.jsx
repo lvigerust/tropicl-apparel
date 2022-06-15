@@ -40,21 +40,21 @@ const Cart = () => {
         className="cart-heading"
         onClick={() => setShowCart(false)}>
           <AiOutlineLeft />
-          <span className="heading">Your Cart</span>
-          <span className="cart-num-items">({totalQuantities} items)</span>
+          <span className="heading">Handlekurv</span>
+          <span className="cart-num-items">({totalQuantities} produkter)</span>
         </button>
 
         {cartItems.length < 1 && (
           <div className="empty-cart">
              <AiOutlineShopping size={150} />
-             <h3>Your shopping bag is empty</h3>
+             <h3>Handlekurven er tom</h3>
              <Link href="/">
               <button
               type="button"
               onClick={() => setShowCart(false)}
               className="btn"
               >
-                Continue Shopping
+                Fortsett å handle
               </button>
              </Link>  
           </div>
@@ -101,12 +101,12 @@ const Cart = () => {
         {cartItems.length >= 1 && (
           <div className="cart-bottom">
             <div className="total">
-              <h3>Subtotal:</h3>
+              <h3>Totalsum:</h3>
               <h3>{totalPrice} kr</h3>
             </div>
             <div className="btn-container">
               <button type='button' className='btn' onClick={handleCheckout}>
-                Pay with Stripe
+                Betal med kort
               </button>
             </div>
           </div>
