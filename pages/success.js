@@ -22,14 +22,15 @@ const Success = () => {
                 <p className="icon">
                     <BsBagCheckFill />
                 </p>
-                <h2>Takk for din ordre!</h2>
-                <p className="email-msg">Se kvittering på din e-post.</p>
+                <h2>Takk for din bestilling!</h2>
+                <p className="email-msg">Vi har mottatt din ordre. Se kvittering i din e-post.</p>
                 <p className="description">
-                    Om du har noen spørsmål, vennligst ta kontakt med
-                    <a href="mailto:kundeservice@tropicl.clothing" className="email">kundeservice@tropicl.clothing</a>
+                    Ta kontakt på 
+                    <a href="mailto:kundeservice@tropicl.clothing" className="email">kundeservice@tropicl.clothing </a>
+                    for spørsmål angående din ordre.
                 </p>
                 <Link href="/">
-                    <button type='button' width="300px" className='btn'>Fortsett å handle</button>
+                    <button type='button' width="300px" className='btn'>Ta meg til hjemsiden</button>
                 </Link>
             </div>
         </div>
