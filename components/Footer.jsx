@@ -4,7 +4,7 @@ import {AiFillInstagram, AiOutlineTwitter} from 'react-icons/ai'
 const footer = () => {
   return (
     <div className='footer-container'>
-      <p>2022 Tropicl Apparel All rights reserved</p>
+      <p>© 2022 Tropicl Apparel, Inc. All rights reserved. <br/>Website developed by Ludvig Vigerust.</p>
       <p className="icons">
         <AiFillInstagram/>
         <AiOutlineTwitter/>
