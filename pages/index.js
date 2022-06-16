@@ -9,16 +9,18 @@ const Home = ({ products, bannerData}) => (
 
 
     <div className='products-heading'>
-      <h2>Mest populære</h2>
-      <p>Finn produktet du ser etter.</p>
+      {/* <h2>Mest populære</h2>
+      <p>Finn produktet du ser etter.</p> */}
     </div>
 
-    <div className='products-container'>
-      {products?.map(
-        (product) => <Product key={product._id} product={product} />)}
-    </div>
+    <div className="background-color-test">
+      <div className='products-container'>
+        {products?.map(
+          (product) => <Product key={product._id} product={product} />)}
+      </div>
 
-    <FooterBanner footerBanner={bannerData && bannerData[0]}/>
+      <FooterBanner footerBanner={bannerData && bannerData[0]}/>
+    </div>
   </div>
 );
   
