@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 
 import { urlFor } from '../lib/client';
-import styles from '../styles/Footerbanner.module.css';
 
 const FooterBanner = ({ footerBanner: {
   discount,
