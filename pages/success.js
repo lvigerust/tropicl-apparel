@@ -5,6 +5,8 @@ import { BsBagCheckFill } from 'react-icons/bs';
 import { useStateContext } from '../context/StateContext';
 import { runConfetti } from '../lib/utils';
 
+
+
 const Success = () => {
     const { setCartItems, setTotalPrice, setTotalQuantities } = useStateContext();
 
@@ -15,7 +17,7 @@ const Success = () => {
         setTotalQuantities(0);
         runConfetti();
     }, []);
-    
+
     return (
         <div className="success-wrapper">
             <div className="success">
@@ -25,7 +27,7 @@ const Success = () => {
                 <h2>Takk for din bestilling!</h2>
                 <p className="email-msg">Vi har mottatt din ordre. Se kvittering i din e-post.</p>
                 <p className="description">
-                    Ta kontakt på 
+                    Ta kontakt på
                     <a href="mailto:kundeservice@tropicl.clothing" className="email">kundeservice@tropicl.clothing </a>
                     for spørsmål angående din ordre.
                 </p>
@@ -34,7 +36,7 @@ const Success = () => {
                 </Link>
             </div>
         </div>
-  )
+    )
 }
 
 export default Success
