@@ -3,6 +3,8 @@ import Link from 'next/link';
 
 import { urlFor } from '../lib/client';
 
+import footerBanner from '../styles/FooterBanner.module.css';
+
 const FooterBanner = ({ footerBanner: {
   discount,
   largeText1,
@@ -15,23 +17,23 @@ const FooterBanner = ({ footerBanner: {
   image } }) => {
   return (
 
-    <div className="footer-banner-container">
-      <div className="banner-desc">
-        <div className="left">
+    <div className={footerBanner.container}>
+      <div className={footerBanner.content}>
+        <div className={footerBanner.left}>
           <p>{discount} rabatt</p>
           <h3>{largeText1}</h3>
           <h3>{largeText2}</h3>
           <p>{saleTime}</p>
         </div>
 
-        <div className="center">
+        <div className={footerBanner.center}>
           <img
             src={urlFor(image)}
-            className="footer-banner-image"
+            className={footerBanner.image}
           />
         </div>
 
-        <div className="right">
+        <div className={footerBanner.right}>
           <p>{smallText}</p>
           <h3>{midText}</h3>
           <p>{desc}</p>
