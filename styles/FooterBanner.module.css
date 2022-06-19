@@ -1,0 +1,62 @@
+.container {
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: #f02d34;
+    position: relative;
+    height: 400px;
+    max-width: 1600px;
+    line-height: 1;
+    color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content button {
+    border-radius: 15px;
+    padding: 10px 16px;
+    background-color: white;
+    color: red;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.left h3 {
+    font-weight: 900;
+    font-size: 80px;
+}
+
+.left p {}
+
+.center {
+    width: 200px;
+}
+
+.image {
+    width: 550px;
+    height: 550px;
+    object-fit: contain;
+    position: absolute;
+    top: -15%;
+    left: 24%;
+}
+
+.right {
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.right h3 {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.right p {
+    font-size: 18px;
+}
