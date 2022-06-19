@@ -22,7 +22,7 @@ const Navbar = () => {
           <Link href="/">Products</Link>
         </p>
         <p className={navbar.menu_list_item}>
-          <Link href="/success">Success</Link>
+          <Link href="/success">About</Link>
         </p>
 
         <button type="button" className={navbar.cart_icon} onClick={() => setShowCart(true)}>

@@ -28,7 +28,6 @@ header {
 
 
 
-/* to make white background stretch beyond 1440px */
 .products-background {
   padding: 50px 0;
   display: flex;
@@ -76,8 +75,10 @@ header {
 .product-detail-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 40px;
   color: #324d67;
+  height: 90vh;
 }
 
 .product-detail-image {
@@ -183,7 +184,7 @@ header {
   width: 200px;
   padding: 10px 20px;
   background-color: #114B5F;
-  color: white;
+  color: #F3E9D2;
   border: none;
   margin-top: 40px;
   font-size: 18px;
@@ -211,7 +212,8 @@ header {
 
 .quantity-desc .minus {
   border-right: 1px solid gray;
-  color: #f02d34;
+  /*   color: #f02d34;
+ */
 }
 
 .quantity-desc .num {
@@ -220,11 +222,14 @@ header {
 }
 
 .quantity-desc .plus {
-  color: rgb(49, 168, 49);
+  /*   color: rgb(49, 168, 49);
+ */
 }
 
 .maylike-products-wrapper {
-  margin-top: 120px;
+  padding: 50px 0;
+  text-align: center;
+  background-color: white;
 }
 
 .maylike-products-wrapper h2 {
@@ -253,6 +258,7 @@ header {
 }
 
 .marquee {
+  background-color: white;
   display: flex;
   align-items: center;
   position: relative;
