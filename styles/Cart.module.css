@@ -180,3 +180,55 @@
 .plus {
     color: rgb(49, 168, 49);
 }
+
+
+
+@media screen and (max-width:800px) {
+
+    .cartContainer {
+        width: 100%;
+        padding: 4px;
+    }
+
+    .cartHeading {
+        margin-top: 35px;
+    }
+
+    .cartProductImage {
+        width: 25%;
+        height: 25%;
+    }
+
+    .itemDesc {
+        width: 200px;
+    }
+
+    .top {
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 200px;
+    }
+
+    .bottom {
+        margin-top: 30px;
+        width: 200px;
+    }
+
+    .top .bottom h5 {
+        font-size: 16px;
+        color: #324d67;
+    }
+
+    .top .bottom h4 {
+        font-size: 16px;
+        color: black;
+    }
+
+    .cartBottom {
+        padding: 30px;
+    }
+
+    .total h3 {
+        font-size: 20px;
+    }
+}

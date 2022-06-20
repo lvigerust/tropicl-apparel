@@ -41,3 +41,10 @@
     margin-top: 6px;
     color: #495057;
 }
+
+
+@media screen and (max-width:800px) {
+    .card:hover {
+        transform: scale(1.0, 1.0)
+    }
+}
