@@ -6,7 +6,7 @@ const footer = () => {
   return (
     <div className={footerStyles.container}>
       <div className={footerStyles.content}>
-        <p>© 2022 Tropicl Apparel, Inc. All rights reserved. <br />Developed by Ludvig Vigerust.</p>
+        <p>Copyright © 2022 Tropicl Apparel, Inc. No rights reserved. <br />Developed by Ludvig Vigerust.</p>
         <p className={footerStyles.icons}>
           <AiFillInstagram />
           <AiOutlineTwitter />

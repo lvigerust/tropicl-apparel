@@ -32,7 +32,7 @@ const Success = () => {
                     for spørsmål angående din ordre.
                 </p>
                 <Link href="/">
-                    <button type='button' width="300px" className='btn'>Ta meg til hjemsiden</button>
+                    <button type='button' width="300px" className='homeBtn'>Ta meg til hjemsiden</button>
                 </Link>
             </div>
         </div>

@@ -76,9 +76,16 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 90vh;
+}
+
+.product-detail-content {
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 40px;
   color: #324d67;
-  height: 90vh;
 }
 
 .product-detail-image {
@@ -106,6 +113,7 @@ header {
   width: 70px;
   height: 70px;
   cursor: pointer;
+  object-fit: cover;
 }
 
 .selected-image {
@@ -121,7 +129,7 @@ header {
 }
 
 .product-detail-desc h4 {
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .product-detail-desc p {
@@ -352,4 +360,58 @@ span.text-red {
 .success .description .email {
   margin-left: 5px;
   color: #f02d34;
+}
+
+.homeBtn {
+  border-radius: 7.5px;
+  width: 200px;
+  padding: 10px 20px;
+  background-color: #114B5F;
+  color: #dcdcdc;
+  border: none;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transform: scale(1, 1);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.homeBtn:hover {
+  transform: scale(1.05, 1.05);
+  box-shadow: 0px 7.5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+@media screen and (max-width:800px) {
+  .product-detail-content {
+    flex-wrap: wrap;
+  }
+
+  .product-detail-content .product-detail-image {
+    width: 350px;
+    height: 350px;
+  }
+
+  .product-detail-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .buttons .add-to-cart {
+    width: 150px;
+  }
+
+  .buttons .buy-now {
+    width: 150px;
+  }
+
+  .track {
+    animation: marquee 30s linear infinite;
+    width: 550%;
+  }
 }
